@@ -3,7 +3,7 @@ import opik
 from loguru import logger
 from opik.configurator.configure import OpikConfigurator
 
-from src.config import get_settings
+from src.agent_api.config import get_settings
 
 settings = get_settings()
 

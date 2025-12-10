@@ -18,7 +18,7 @@ from agent_api.models import (
     AssistantMessageResponse,
     GeneralResponseModel,
     RoutingResponseModel,
-    VideoClipResponseModel,
+    VideoClipResponseModel
 )
 
 logger.bind(name="GroqAgent")
