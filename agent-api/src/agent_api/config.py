@@ -12,7 +12,7 @@ class Settings(BaseSettings):
     GROQ_IMAGE_MODEL: str = "meta-llama/llama-4maverick-17b-128e-instruct"
     GROQ_GENERAL_MODEL: str = "meta-llama/llama-4-maverick-17b-128e-instruct"
 
-    # OPIK_API_KEY: str | None = Field(default=None,description="Opik API Key")
+    OPIK_API_KEY: str | None = Field(default=None,description="Opik API Key")
     OPIK_WORKSPACE: str = "default"
     OPIK_PROJECT:str = Field(
         default="Agent-API",
