@@ -45,4 +45,8 @@ class Memory:
         return self.get_all()[-n:]
 
     def get_by_message_id(self,message_id:str)-> MemoryRecord:
-        return self._memory_table.where(self._memory_table.message_id ==message_id).collect()[0]
+        return self._memory_table.where(self._memory_table.message_id ==message_id).collect()[0
+        
+        
+        
+        ]
